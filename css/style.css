@@ -197,9 +197,10 @@
 		}
 		
 			.image img
-			{
-				display: block;
-				width: 100%;
+			{background: none repeat scroll 0 0 white;
+    display: block;
+    padding: 33px;
+    width: 100%;
 			}
 
 			.image.featured
@@ -609,10 +610,10 @@
 
 					.box.style1 .image img
 					{
-						position: absolute;
-						top: 0;
 						height: 100%;
-						width: auto;
+                                                position: absolute;
+                                                top: 0;
+                                                width: 100%;
 					}
 
 				.box.style1 .inner
